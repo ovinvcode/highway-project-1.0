@@ -7,7 +7,7 @@ import camera_feed
 import hardware_control # We'll keep this for the ticket printing simulation
 
 def run_system():
-    cap = cv2.VideoCapture("1234.webp")
+    cap = cv2.VideoCapture(0)
     print("System started. Looking for vehicles...")
 
     while True:
